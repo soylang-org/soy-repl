@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8ab8e703-7023-4d0f-9ed1-7b67e6c41356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4e5ed50c-0f8f-4a3a-9509-bfd24c9c7fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{16218b1f-b16e-40cd-8b11-e6656419ee53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{57675ed3-1c0c-440c-a3f1-c74f46ac2aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lang">
+      <UniqueIdentifier>{62a127db-1a2e-445c-8d63-c677eb690902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lang\soy">
+      <UniqueIdentifier>{1d4bfc42-0cb1-4e42-b476-7a1346bf47a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\soy-repl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\analyzer.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\ast.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\lexer.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\parser.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\platform.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\preprocessor.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\report.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\ruleset.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\syntax.hh">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\soy.hh">
+      <Filter>Header Files\lang\soy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\soy-repl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

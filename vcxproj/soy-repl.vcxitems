@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{1c1418a5-c135-4305-b676-7f7f76b22fbc}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\analyzer.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\ast.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\lexer.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\parser.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\platform.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\preprocessor.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\report.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\ruleset.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\syntax.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\soy.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\soy-repl.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\soy-repl.cpp" />
+  </ItemGroup>
+</Project>

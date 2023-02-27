@@ -1,4 +1,3 @@
-#pragma once
 /*
 ==================================================================
 Copyright (c) 2023 Jesse Stojan.
@@ -36,21 +35,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Please visit https://soylang.org for change logs, documentation,
 news, updates, and resources related to Soy programming language.
 
-Change Log: https://soylang.org/changelog/soy-repl/inc/lang/soy/soy.hh
+Change Log: https://soylang.org/changelog/soy-repl/src/common/report.cpp
 ==================================================================
 */
-
-//////////////////////////////////////////////////////////////////
-#ifndef __SOY_REPL_LANG_SOY_HH__
-#define __SOY_REPL_LANG_SOY_HH__
-//////////////////////////////////////////////////////////////////
-#include "preprocessor.hh"
-#include "report.hh"
-#include "ruleset.hh"
-#include "syntax.hh"
-
-
-
-//////////////////////////////////////////////////////////////////
-#endif//__SOY_REPL_LANG_SOY_HH__
-//////////////////////////////////////////////////////////////////
+#include <common/report.hh>

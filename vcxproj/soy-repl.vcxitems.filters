@@ -19,6 +19,15 @@
     <Filter Include="Header Files\lang\soy">
       <UniqueIdentifier>{1d4bfc42-0cb1-4e42-b476-7a1346bf47a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{e6d9d1a1-677f-4e61-888b-f41ccc068486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lang">
+      <UniqueIdentifier>{8973f3e8-4791-4a93-a2d2-880496b4964c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lang\soy">
+      <UniqueIdentifier>{60094706-7ff8-4728-b84c-51ca105135c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\soy-repl.hh">
@@ -54,10 +63,49 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\soy.hh">
       <Filter>Header Files\lang\soy</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\preprocessor.hh">
+      <Filter>Header Files\lang\soy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\ruleset.hh">
+      <Filter>Header Files\lang\soy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\syntax.hh">
+      <Filter>Header Files\lang\soy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\report.hh">
+      <Filter>Header Files\lang\soy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\src\soy-repl.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\analyzer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\ast.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\lexer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\parser.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\preprocessor.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\report.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\ruleset.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\syntax.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\lang\soy\soy.cpp">
+      <Filter>Source Files\lang\soy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

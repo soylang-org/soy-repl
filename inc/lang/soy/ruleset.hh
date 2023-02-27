@@ -36,21 +36,18 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Please visit https://soylang.org for change logs, documentation,
 news, updates, and resources related to Soy programming language.
 
-Change Log: https://soylang.org/changelog/soy-repl/inc/lang/soy/soy.hh
+Change Log: https://soylang.org/changelog/soy-repl/inc/lang/soy/ruleset.hh
 ==================================================================
 */
 
 //////////////////////////////////////////////////////////////////
-#ifndef __SOY_REPL_LANG_SOY_HH__
-#define __SOY_REPL_LANG_SOY_HH__
+#ifndef __SOY_REPL_LANG_SOY_RULESET_HH__
+#define __SOY_REPL_LANG_SOY_RULESET_HH__
 //////////////////////////////////////////////////////////////////
-#include "preprocessor.hh"
-#include "report.hh"
-#include "ruleset.hh"
-#include "syntax.hh"
+#include "../../common/ruleset.hh"
 
 
 
 //////////////////////////////////////////////////////////////////
-#endif//__SOY_REPL_LANG_SOY_HH__
+#endif//__SOY_REPL_LANG_SOY_RULESET_HH__
 //////////////////////////////////////////////////////////////////

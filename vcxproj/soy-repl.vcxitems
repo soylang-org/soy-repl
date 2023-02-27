@@ -23,10 +23,23 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\report.hh" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\ruleset.hh" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\common\syntax.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\preprocessor.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\report.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\ruleset.hh" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\soy.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\lang\soy\syntax.hh" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\inc\soy-repl.hh" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\analyzer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\ast.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\lexer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\preprocessor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\report.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\ruleset.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\common\syntax.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\src\lang\soy\soy.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\src\soy-repl.cpp" />
   </ItemGroup>
 </Project>
